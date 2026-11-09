@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 09, 2026 at 02:12 PM
+-- Generation Time: Nov 09, 2026 at 04:54 PM
 -- Server version: 8.4.3
 -- PHP Version: 8.3.26
 
@@ -63,7 +63,8 @@ CREATE TABLE `classes` (
 --
 
 INSERT INTO `classes` (`id`, `nama_matkul`, `pengajar`, `jadwal`, `jam_selesai`, `ruangan`, `kode_sesi`, `link_modul`, `status_kelas`) VALUES
-(1, 'Ethics in Informatics', 'Dennis Gunawan', '2026-11-08 17:30:00', '18:30:00', 'Gedung D501', 'CURSOR-BASDAT-01', 'https://example.com/modul-basdat', 'Ongoing');
+(1, 'Ethics in Informatics', 'Dennis Gunawan', '2026-11-08 17:30:00', '18:30:00', 'Gedung D501', 'CURSOR-BASDAT-01', 'https://example.com/modul-basdat', 'Ongoing'),
+(2, 'Linear Algebra', 'Nyimas Dewi', '2026-11-11 18:00:00', '19:00:00', 'Gedung C0313', 'CURSOR-01', 'https://drive.google.com/drive/folders/1Pcqi5bnXmOmWw2A6QAKh3ZXE3LXJ91tWhttps://drive.google.com/drive/folders/1Pcqi5bnXmOmWw2A6QAKh3ZXE3LXJ91tW', 'Ongoing');
 
 -- --------------------------------------------------------
 
@@ -127,7 +128,7 @@ ALTER TABLE `admins`
 -- AUTO_INCREMENT for table `classes`
 --
 ALTER TABLE `classes`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `cursor_attendees_logch`
